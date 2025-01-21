@@ -99,7 +99,9 @@
   }
 
   .nav__list {
-    display: flex;
+    // display: none;
+
+    // display: flex;
     column-gap: 10px;
     align-items: center;
     justify-content: space-between;
@@ -299,7 +301,7 @@
     }
   }
 
-  @media (hover: hover) and (max-width: 767px) {
+  @media (max-width: 767px) {
     .header__logo {
       order: 1;
     }
@@ -328,7 +330,8 @@
       transition: all ease-in-out .5s;
       top: 100%;
       right: 0;
-      height: 100vh;
+      height: calc(100vh - 80px);
+      overflow: auto;
       width: 375px;
       justify-content: start;
       align-items: start;

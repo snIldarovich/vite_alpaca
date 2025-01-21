@@ -99,9 +99,7 @@
   }
 
   .nav__list {
-    // display: none;
-
-    // display: flex;
+    display: flex;
     column-gap: 10px;
     align-items: center;
     justify-content: space-between;
@@ -232,7 +230,7 @@
   .main {
     margin-top: 80px;
     min-height: 944px;
-    background: no-repeat center/cover url(./images/alpaca.png);
+    background: no-repeat center/cover url(../images/alpaca.png);
   }
 
   @media (hover: hover) and (min-width: 768px) {
